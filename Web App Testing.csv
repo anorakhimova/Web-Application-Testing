@@ -1,0 +1,342 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G11-192","group1.1","Star","Payment Information: Using card with ""Transaction not permitted to CH"" result allows  to place an order successfully","arakhimova","5 Oct 2022","6 Oct 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**Str:**
+
+1. All steps before payment method were passed
+2. Payment Method: Choose credit Card and click continue button
+3. Choose credit card data with **Transaction not permitted to CH** result
+4. Replace data to corresponding fields
+5. Click continue and than confirm
+
+**Result:** Order is processed
+
+**Expected result:** warning message with info **Transaction not permitted to CH** appears","0"
+"G11-193","group1.1","Star","Payment Information: Using card with ""Pick up. Stolen card"" result allows to place an order successfully","arakhimova","5 Oct 2022","6 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**Str:**
+
+1. All steps before payment method were passed
+2. Payment Method: Choose credit Card and click continue button
+3. Choose credit card data with **Pick up. Stolen card** result
+4. Replace data to corresponding fields
+5. Click continue and than confirm
+
+**Result:** Order has been successfully processed
+
+**Expected result:** warning message with info **Pick up. Stolen card** appears","0"
+"G11-194","group1.1","Star","Estimate shipping: delivery methods do not display information about their cost.","arakhimova","5 Oct 2022","6 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**STR:**
+
+1. Open link <https://demowebshop.tricentis.com/>
+2. Click on books button
+3. Add Computing and Internet and Health Book to shopping cart by clicking add to cart button
+4. Click Shopping cart link at the top of the site and go to shoping cart
+5. Choose Country and state in estimated shipping block
+6. Click estimate shipping
+
+**Result:** Estimate shipping presents  0 cost for any country or method after estimate shipping button is clicked
+
+**Expected result:** shipping should be estimated accourding to country","0"
+"G11-195","group1.1","Star","Shopping cart: no delete button placed to delete goods","arakhimova","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**STR:**
+
+1. Open link <https://demowebshop.tricentis.com/>
+2. Click on books button
+3. Add Computing and Internet and Health Book to shopping cart by clicking add to cart button
+4. Click Shopping cart link at the top of the site and go to shoping cart
+5. Choose Health book by clicking checkbox near subjest
+6. Click on remove in column
+
+**Result:** Remove is not clickable, to delete goods after checking goods update shopping cart should be clicked
+
+**Expexted result:** In shoppinfg cart delete button should be placed to delete goods","0"
+"G11-185","group1.1","Star","Web App testing. Anora Rakhimova","arakhimova","5 Oct 2022","5 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-2","group1.1","","#7 Web App Testing","root","10 Sep 2022","5 Oct 2022",,"Critical","Epic","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-190","group1.1","Star","Shipping Adress: invalid data in First name, Last name, City, Adress, zip code, phone number is not forbidden, te","arakhimova","5 Oct 2022","5 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**Str:**
+
+1. Open link <https://demowebshop.tricentis.com/cart>, add goods to shopping cart
+2. Click checkbox  ""I agree with the terms of service and I adhere to them unconditionally (read)"" and click checkbox button
+3. Click Checkout as a guest button
+4. Input invalid data (numbers, special characters) in First name text field
+5. Fill other fields
+6. Click continue button
+
+
+
+**Result:** numbers, special characters are available, checkout continious
+
+**Expected result:** error or warning massage should appear ","0"
+"G11-189","group1.1","Star","Estimate shipping presents the same cost to any country after estimate shipping button is clicked ","arakhimova","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**STR:**
+
+1. Open link <https://demowebshop.tricentis.com/>
+2. Click on books button
+3. Add Computing and Internet and Health Book to shopping cart by clicking add to cart button
+4. Click Shopping cart link at the top of the site and go to shoping cart
+5. Choose Country and state
+6. Click estimate shipping
+
+
+
+**Result:** Estimate shipping presents the same cost to any country after estimate shipping button is clicked
+
+**Expected result:** shipping should be estimated accourding to country
+
+
+","0"
+"G11-188","group1.1","Star","Estimate shipping: No State / province choice in dropdown when  country choice is not US ","arakhimova","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**STR:**
+
+1. Open Shoppnig cart on <https://demowebshop.tricentis.com/> page
+2. In estimate shipping block choose non US in Country dropdown
+3. Click State / province  dropdown
+
+
+
+**Result:** State / province  dropdown has one choice- Other (Non US)
+
+
+
+**Expected result:**  Clicking State / province  dropdown represents state/province according to selected Country ","0"
+"G11-187","group1.1","Star","Shopping cart: Inputting invalid data (letters, special characters) in quantity text field is not forbidden","arakhimova","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**STR:**
+
+1. Open link <https://demowebshop.tricentis.com/>
+2. Click on books button
+3. Add Computing and Internet and Health Book to shopping cart by clicking add to cart button
+4. Click Shopping cart link at the top of the site and go to shoping cart
+5. Fill quantity text fields with letters and special characters
+6.  Click Update shopping cart button
+
+   
+
+**Result:** quantity text field is filled with invalid data, no error message appears
+
+**Expected result:** application doesnt allow input invalid data,  error or warning message  appears","0"
+"G11-186","group1.1","Star","Shopping cart: Changing quantity of goods in shopping  cart doesnt change automatically  the total and sub-total prices","arakhimova","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**STR:**
+
+1. Open link <https://demowebshop.tricentis.com/>
+2. Click on books button
+3. Add Computing and Internet and Health Book to shopping cart by clicking add to cart button
+4. Click Shopping cart link at the top of the site and go to shoping cart
+5. Change quantity of good Health book from 1 to 2 in text field
+6. Click to any empty space on page
+
+**Result:** Changing quantity of goods in shopping  cart doesnt change automatically  the total and sub-total prices
+
+
+
+**Expected result:** Changing quantity of goods in shopping  cart  changes automatically  the total and sub-total prices","0"
+"G11-156","group1.1","","Testing Documentation Oleksii Budkov group 1.1 Web app Testing","oleksiibudkov","3 Oct 2022","3 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H2 ; Google Chrome 105.0.5195.127 .","No qase tc # (only for bug)",,"0"
+"G11-59","group1.1","Star","Add Customer: After putting numbers, cyrillic and special characters in First name field info message Special characters are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-121","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill First name field with invalid data (numbers, cyrillic and special characters) Аня12?
+
+
+
+**Result:** Data displayed in First name field and info message ***Special characters are not allowed*** are not allowed is appeared
+
+**Expected result:**
+
+Data displayed in First name field and info message Numbers, Cyrillic and special characters are not allowed is appeared
+
+
+","0"
+"G11-61","group1.1","Star","Add Customer: When Adress field filled with numbers no info message appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-138 G13-140","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Adress field with invalid data (Input numbers) 789
+
+**Result:** No info message under Adress field appears
+
+**Expected result:**
+
+Data displayed in adress field and info message Numbers are not allowed is appeared","0"
+"G11-63","group1.1","Star","Add Customer: After putting numbers, cyrillic and special characters in Adress field info message Special characters are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-141","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Adress field with invalid data (numbers, cyrillic and special characters) Калининград 12 \*№
+
+**Result:** Data displayed in Adress field and info message ***Special characters are not allowed*** are not allowed is appeared
+
+**Expected result:**
+
+Data displayed in Adress field and info message Numbers, Cyrillic and special characters are not allowed is appeared","0"
+"G11-65","group1.1","Star","Add Customer: After putting cyrillic letters and special characters in Adress field info message Special characters are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-142","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Adress field with invalid data (numbers, cyrillic and special characters) Калининград  \*№
+
+**Result:** Data displayed in Adress field and info message ***Special characters are not allowed*** are not allowed is appeared
+
+**Expected result:**
+
+Data displayed in Adress field and info message  Cyrillic and special characters are not allowed is appeared","0"
+"G11-72","group1.1","Star","Fields in Billing Address have no names and * mark","arakhimova","29 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","No qase tc # (only for bug)","STR:
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Compare appearence with info from requirements
+
+
+
+Result: Fields have no name and marks \*
+
+Expected result: Every field have name and marked with\*","0"
+"G11-68","group1.1","Star","Add Customer: When Mobile number field  is empty  info message Mobile no must not be blank appears ","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-149","### **STR:**
+
+1. Click Mobile number field
+2. Let Mobile number field empty and click any place on page
+
+**Result:** Info message **Mobile no must not be blank** appears
+
+**Expected result:**
+
+Info message Mobile number must not be blank appears","0"
+"G11-67","group1.1","Star","Add Customer: After putting numbers and special characters in Mobile number field info message Special characters are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-148","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Mobile number field with invalid data +7950#
+
+**Result:** Data displayed in field and info message **Special characters are not allowed** is appeared
+
+**Expected result:**
+
+Data displayed in field and info message numbers and special characters are not allowed is appeared","0"
+"G11-66","group1.1","Star","Add Customer: After putting cyrillic letters  in Mobile number field info message Characters are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-147","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Mobile number field with invalid data (Input cyrillic letters) -пять семь десять
+
+
+
+**Result:** 
+
+Data displayed in field and info message **Characters are not allowed** is appeared
+
+**Expected result:**
+
+1. Data displayed in field and info message Cyrillic letters are not allowed is appeared","0"
+"G11-64","group1.1","Star","Add Customer: After putting valid special characters  in Adress field info message Special characters are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-137","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Adress field with valid data - Kaliningrad, Leninskiy prospekt.
+
+**Result:** Data displayed in adress field and info message ***Special characters are not allowed*** is appeared
+
+**Expected result:**
+
+Data displayed in adress field and  no info message appears","0"
+"G11-62","group1.1","Star","Add Customer: After putting cyrillic letters in Adress field info message Special characters are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","No qase tc # (only for bug)","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Adress field with invalid data (cyrillic letters) Роман
+
+**Result:** Data displayed in adress field and info message ***Special characters are not allowed*** is appeared
+
+**Expected result:**
+
+Data displayed in adress field and info message Сyrillic letters are not allowed is appeared","0"
+"G11-60","group1.1","Star","Add Customer: After putting numbers, cyrillic and special characters in Last name field info message Special characters are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-128","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Last name field with invalid data (numbers, cyrillic and special characters) Петров12;%
+
+**Result:** Data displayed in Last name field and info message ***Special characters are not allowed*** are not allowed is appeared
+
+**Expected result:**
+
+Data displayed in Last name field and info message Numbers, Cyrillic and special characters are not allowed is appeared","0"
+"G11-58","group1.1","Star","Add Customer: After putting invalid data in Email adress  info message Email is not valid appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-131 G13-132 G13-133 G13-134 G13-135 G13-136","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Email Adress field with invalid data (Input just latin letters) test
+
+   
+
+**Result:** Data displayed in Email adress field and info message **Email-ID is not valid** is appeared
+
+**Expected result:** Data displayed in Email adress field and info message *Email is not valid* is appeared
+
+
+","0"
+"G11-57","group1.1","Star","Home page: names of buttons in hamburger menu and home page are not the same","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-25","**STR:** 
+
+1. Open the link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Click Hamburger menu
+3. Compare button names with home page
+
+
+
+Result: Hamburger menu contains Add Customer, *Add Tariff Plans*, Add Tariff Plan to Customer and Pay Billing buttons
+
+Expected result: Hamburger menu contains Add Customer, Add Tariff Plan, Add Tariff Plan to Customer and Pay Billing buttons","0"
+"G11-56","group1.1","Star","Home page: Add Tariff Plan button redirects to the page named Add Tariff Plans","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-21","STR:
+
+1. Open the link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Click Add Tariff Plan button
+
+**Result:** Add Tariff Plans page is opened
+
+**Expexted result:** Add Tariff Plan page is opened","0"
+"G11-55","group1.1","Star","Add Customer: When Last name field  is empty  info message Customer name must not be blank appears ","arakhimova","28 Sep 2022","30 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-129","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Click on Last Name field
+3. Let Last Name field empty and click any place on page
+
+**Result:** Under field info message Customer name must not be blank  appears.
+
+
+
+**Expected result:** Under field info message Last Name must not be blank  appears.
+
+
+","0"
+"G11-54","group1.1","Star","Add Customer: When First name field  is empty  info message Customer name must not be blank appears ","arakhimova","28 Sep 2022","30 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-122","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Click on First Name field
+3. Let First Name field empty and click any place on page
+
+**Result:** Under field info message Customer name must not be blank  appears.
+
+
+
+**Expected result:** Under field info message First Name must not be blank  appears.
+
+
+","0"
+"G11-53","group1.1","Star","Add Customer: After putting in Mobile number field  latin letters info message characters are not allowed is appeared ","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-145","STR:
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Mobile number field with invalid data (latin letters) null seven five
+
+
+
+**Result:** Data displayed in field and info message *Characters* are not allowed is appeared
+
+**Expected result:** Data displayed in field and info message Latin letters are not allowed is appeared","0"
+"G11-52","group1.1","Star","Add Customer: After putting cyrillic letters in First name field info message Nubers are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-118","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill First name field with invalid data (cyrillic) Петров
+
+**Result:** Data displayed in First name field and info message *Numbers* are not allowed is appeared.
+
+**Expected result:** Data displayed in First name field and info message Сyrillic letters are not allowed is appeared","0"
+"G11-51","group1.1","Star","Add Customer: After putting cyrillic letters in Last name field info message Nubers are not allowed appears","arakhimova","28 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-127","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill Last name field with invalid data (cyrillic) Петров
+
+**Result:** Data displayed in Last name field and info message *Numbers* are not allowed is appeared.
+
+**Expected result:** Data displayed in Last name field and info message Сyrillic letters are not allowed is appeared
+
+
+","0"
+"G11-69","group1.1","Star","Testing Documentation Anora","arakhimova","28 Sep 2022","29 Sep 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-191","group1.1","Star","Payment Information: Using card with Insufficient funds result allows  to place an order successfully","arakhimova","5 Oct 2022","6 Oct 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**Str:**
+
+1. All steps before payment method were passed
+2. Payment Method: Choose credit Card and click continue button
+3.  Choose credit card data with Insufficient funds result
+4.  Replace data to corresponding fields
+5.  Click continue and than confirm
+
+**Result:** Order is processed
+
+**Expected result:**  warning message with info Insufficient funds appears","0"
